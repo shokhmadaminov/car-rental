@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <a class="header__logo" href="./index.html">
+                <img src="./images/svg/logo.svg" alt="site logo" width="150" height="40">
+            </a>
+            <nav class="sitenav">
+                <ul class="sitenav__list">
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">Categories</a>
+                    </li>
+                    <li class="sitenav__item">
+                        <span class="sitenav__link" href="#">
+                            <span>About Us</span> 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"><path fill="#fff" fill-rule="evenodd" d="M15.153 8.222a.687.687 0 0 1 0 .972l-3.667 3.667a.688.688 0 0 1-.972 0L6.847 9.194a.687.687 0 1 1 .973-.972l3.18 3.18 3.18-3.18a.687.687 0 0 1 .973 0Z" clip-rule="evenodd"/></svg>
+                        </span>
+                        <ul class="dropdown">
+                            <li class="dropdown__item">
+                                <a class="dropdown__link" href="#">News</a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a class="dropdown__link" href="#">Careers</a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a class="dropdown__link" href="#">Locations</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sitenav__item">
+                        <span class="sitenav__link" href="#">
+                            <span>Help center</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"><path fill="#fff" fill-rule="evenodd" d="M15.153 8.222a.687.687 0 0 1 0 .972l-3.667 3.667a.688.688 0 0 1-.972 0L6.847 9.194a.687.687 0 1 1 .973-.972l3.18 3.18 3.18-3.18a.687.687 0 0 1 .973 0Z" clip-rule="evenodd"/></svg>
+                        </span>
+                        <ul class="dropdown">
+                            <li class="dropdown__item">
+                                <a class="dropdown__link" href="#">FAQ</a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a class="dropdown__link" href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <p class="header__phone">+1 855 420 0000</p>
+            <button class="header__dark-btn" id="dark-btn">
+                <img class="header__sun-icon" src="./images/svg/Sun.svg" alt="sun icon" width="22" height="22">
+                <img class="header__moon-icon hidden" src="./images/svg/Moon.svg" alt="Moon icon" width="22" height="22">
+            </button>
+            <button class="header__login btn" type="button">
+                <span>Login</span>
+                <img src="./images/svg/Login.svg" alt="enter door icon" width="22" height="22">
+            </button>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main -->
+    <main class="main">
+
+        <!-- hero section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <div class="hero__top">
+                        <h2 class="hero__title section-title">Compact cars</h2>
+                        <p class="hero__subtitle">Rent cars as you are comfortable and where you are comfortable.</p>
+                    </div>
+                    <div class="hero__bottom">
+                        <div class="hero__bottom-left">
+                            <span class="active"></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="hero__bottom-right">
+                            <button>
+                                <img src="./images/svg/arrow.svg" alt="arrow left icon" width="20" height="20">
+                            </button>
+                            <button>
+                                <img src="./images/svg/arrow.svg" alt="arrow right icon" width="20" height="20">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section end -->
+
+        <!-- search car -->
+        <section class="search-car">
+            <div class="container">
+                <form class="search-car__form" action="https://echo.htmlacademy.ru">
+                    <input class="search-car__input" type="search" placeholder="Find the car of your dreams" name="search-car" required>
+                    <button class="search-car__btn" type="submit">
+                        <img src="./images/svg/search.svg" alt="search icon" width="24" height="24">
+                    </button>
+                </form>
+            </div>
+        </section>
+        <!-- search car end -->
+
+    </main>
+    <!-- main end -->
+
+
+    <!-- overlay and modal -->
+    <div class="overlay hidden">
+        <div class="modal">
+            <button class="modal__cross-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"><path fill="#000" d="M14.727 8.245a.687.687 0 1 0-.972-.972L11 10.028 8.245 7.273a.687.687 0 1 0-.972.972L10.028 11l-2.755 2.755a.688.688 0 0 0 .972.972L11 11.972l2.755 2.755a.688.688 0 1 0 .972-.972L11.972 11l2.755-2.755Z"/></svg>
+            </button>
+            <h2 class="modal__title section-title">Login</h2>
+            <p class="modal__subtitle">Use the email and password that you login</p>
+            <form class="modal__form" action="https://echo.htmlacademy.ru">
+                <label class="modal__label">
+                    <input class="modal__input" type="email" placeholder="Email" required>
+                </label>
+                <label class="modal__label"> 
+                    <input class="modal__input modal__input--password" type="password" placeholder="Password" required>
+                    <button class="modal__eye-btn" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"><path fill="#000" d="M11 8.938a2.063 2.063 0 1 0 0 4.125 2.063 2.063 0 0 0 0-4.125Z"/><path fill="#000" fill-rule="evenodd" d="M11 5.042c-2.4 0-4.558.964-6.113 2.157-.778.598-1.417 1.261-1.865 1.907-.44.633-.73 1.3-.73 1.894 0 .595.29 1.26.73 1.894.448.646 1.087 1.31 1.865 1.907C6.442 15.995 8.6 16.958 11 16.958c2.4 0 4.558-.963 6.113-2.157.778-.597 1.417-1.261 1.865-1.907.44-.633.73-1.3.73-1.894 0-.594-.29-1.26-.73-1.894-.448-.646-1.087-1.31-1.865-1.907C15.558 6.006 13.4 5.042 11 5.042ZM7.563 11a3.438 3.438 0 1 1 6.875 0 3.438 3.438 0 0 1-6.875 0Z" clip-rule="evenodd"/></svg>
+                    </button>
+                </label>
+                <a class="modal__forgot-password" href="#">Forgot password</a>
+                <a class="modal__create-account" href="#">I want to create an account</a>
+                <button class="modal__btn btn" type="submit">
+                    <span>Login</span>
+                    <img src="./images/svg/Login.svg" alt="enter door icon" width="22" height="22">
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- overlay and modal end -->
+
+    <script src="./app.js"></script>
+</body>
+</html>
