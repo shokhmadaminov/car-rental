@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    
+
     <!-- header -->
     <header class="header">
         <div class="container">
@@ -23,8 +25,12 @@
                     </li>
                     <li class="sitenav__item">
                         <span class="sitenav__link" href="#">
-                            <span>About Us</span> 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"><path fill="#fff" fill-rule="evenodd" d="M15.153 8.222a.687.687 0 0 1 0 .972l-3.667 3.667a.688.688 0 0 1-.972 0L6.847 9.194a.687.687 0 1 1 .973-.972l3.18 3.18 3.18-3.18a.687.687 0 0 1 .973 0Z" clip-rule="evenodd"/></svg>
+                            <span>About Us</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none">
+                                <path fill="#fff" fill-rule="evenodd"
+                                    d="M15.153 8.222a.687.687 0 0 1 0 .972l-3.667 3.667a.688.688 0 0 1-.972 0L6.847 9.194a.687.687 0 1 1 .973-.972l3.18 3.18 3.18-3.18a.687.687 0 0 1 .973 0Z"
+                                    clip-rule="evenodd" />
+                            </svg>
                         </span>
                         <ul class="dropdown">
                             <li class="dropdown__item">
@@ -41,7 +47,11 @@
                     <li class="sitenav__item">
                         <span class="sitenav__link" href="#">
                             <span>Help center</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"><path fill="#fff" fill-rule="evenodd" d="M15.153 8.222a.687.687 0 0 1 0 .972l-3.667 3.667a.688.688 0 0 1-.972 0L6.847 9.194a.687.687 0 1 1 .973-.972l3.18 3.18 3.18-3.18a.687.687 0 0 1 .973 0Z" clip-rule="evenodd"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none">
+                                <path fill="#fff" fill-rule="evenodd"
+                                    d="M15.153 8.222a.687.687 0 0 1 0 .972l-3.667 3.667a.688.688 0 0 1-.972 0L6.847 9.194a.687.687 0 1 1 .973-.972l3.18 3.18 3.18-3.18a.687.687 0 0 1 .973 0Z"
+                                    clip-rule="evenodd" />
+                            </svg>
                         </span>
                         <ul class="dropdown">
                             <li class="dropdown__item">
@@ -57,7 +67,8 @@
             <p class="header__phone">+1 855 420 0000</p>
             <button class="header__dark-btn" id="dark-btn">
                 <img class="header__sun-icon" src="./images/svg/Sun.svg" alt="sun icon" width="22" height="22">
-                <img class="header__moon-icon hidden" src="./images/svg/Moon.svg" alt="Moon icon" width="22" height="22">
+                <img class="header__moon-icon hidden" src="./images/svg/Moon.svg" alt="Moon icon" width="22"
+                    height="22">
             </button>
             <button class="header__login btn" type="button">
                 <span>Login</span>
@@ -102,7 +113,8 @@
         <section class="search-car">
             <div class="container">
                 <form class="search-car__form" action="https://echo.htmlacademy.ru">
-                    <input class="search-car__input" type="search" placeholder="Find the car of your dreams" name="search-car" required>
+                    <input class="search-car__input" type="search" placeholder="Find the car of your dreams"
+                        name="search-car" required>
                     <button class="search-car__btn" type="submit">
                         <img src="./images/svg/search.svg" alt="search icon" width="24" height="24">
                     </button>
@@ -110,6 +122,287 @@
             </div>
         </section>
         <!-- search car end -->
+
+        <!-- products section -->
+        <section class="products">
+            <div class="container">
+                <h1 class="products__title section-title">Choose the car of your dreams</h1>
+                <p class="products__text">We provide our customers with the most incredible driving emotions. That is
+                    why there are only world-class cars in our fleet</p>
+                <div class="products__btn-wrapper">
+                    <button class="products__btn btn products__btn--active">Compact</button>
+                    <button class="products__btn btn">Sports cars</button>
+                    <button class="products__btn btn">Vans </button>
+                </div>
+                <ul class="products__list">
+                    <li class="products__item">
+                        <h2>Ford Fiesta</h2>
+                        <p>Economy Car</p>
+                        <img class="products__item-img" src="images/png/Ford Fiesta.png" alt="Ford Fiesta image"
+                            width="387" height="220">
+                        <div class="products__item-bottom">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.99996 3.125C8.27407 3.125 6.87496 4.52411 6.87496 6.25C6.87496 7.97589 8.27407 9.375 9.99996 9.375C11.7258 9.375 13.125 7.97589 13.125 6.25C13.125 4.52411 11.7258 3.125 9.99996 3.125Z"
+                                        fill="white" />
+                                    <path
+                                        d="M6.66663 11.0417C4.94074 11.0417 3.54163 12.4408 3.54163 14.1667V15.1569C3.54163 15.7846 3.99653 16.3198 4.61602 16.4209C8.18171 17.0031 11.8182 17.0031 15.3839 16.4209C16.0034 16.3198 16.4583 15.7846 16.4583 15.1569V14.1667C16.4583 12.4408 15.0592 11.0417 13.3333 11.0417H13.0492C12.8955 11.0417 12.7427 11.066 12.5966 11.1137L11.8753 11.3492C10.6567 11.7471 9.34319 11.7471 8.12462 11.3492L7.40335 11.1137C7.2572 11.066 7.10443 11.0417 6.95068 11.0417H6.66663Z"
+                                        fill="white" />
+                                </svg>
+                                5 Seats
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff"
+                                        d="M10 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm4 7.667a1 1 0 0 1-1 1h-1.333a1 1 0 0 0-1 1v1.666a.667.667 0 1 1-1.334 0v-1.666a1 1 0 1 0-2 0v1.666a.667.667 0 0 1-1.333 0V6.667a.667.667 0 1 1 1.333 0v1.666a1 1 0 0 0 2 0V6.667a.667.667 0 0 1 1.334 0v1.666a1 1 0 1 0 2 0V6.667a.667.667 0 0 1 1.333 0v3Z" />
+                                </svg>
+                                Automatic
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff" fill-rule="evenodd"
+                                        d="M11.875 2.083a.208.208 0 0 0-.208-.208H5.833a2.292 2.292 0 0 0-2.291 2.292v11.666a2.292 2.292 0 0 0 2.291 2.292h8.334a2.292 2.292 0 0 0 2.291-2.292v-8.21a.208.208 0 0 0-.208-.209H12.5a.625.625 0 0 1-.625-.625V2.083ZM10 8.333a1.667 1.667 0 1 0 0 3.334 1.667 1.667 0 0 0 0-3.334Zm-3.333 7.084a2.5 2.5 0 0 1 2.5-2.5h1.666a2.5 2.5 0 0 1 2.5 2.5c0 .46-.373.833-.833.833h-5a.833.833 0 0 1-.833-.833Z"
+                                        clip-rule="evenodd" />
+                                    <path fill="#fff"
+                                        d="M13.125 2.353c0-.153.16-.25.28-.154.1.081.192.176.269.284l2.51 3.498c.058.08-.004.183-.102.183h-2.749a.208.208 0 0 1-.208-.208V2.353Z" />
+                                </svg>
+                                21+ Years
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff"
+                                        d="M15 11.55a5.319 5.319 0 0 1-5.313 5.325 5.319 5.319 0 0 1-5.312-5.325c0-2.941 5.313-8.425 5.313-8.425S15 8.609 15 11.55Z" />
+                                </svg>
+                                1-lit / 2.5 km
+                            </span>
+                        </div>
+                    </li>
+                    <li class="products__item">
+                        <h2>Nissan Versa</h2>
+                        <p>Compact Car</p>
+                        <img class="products__item-img" src="images/png/Nissan Versa.png" alt="Nissan Versa image"
+                            width="387" height="220">
+                        <div class="products__item-bottom">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.99996 3.125C8.27407 3.125 6.87496 4.52411 6.87496 6.25C6.87496 7.97589 8.27407 9.375 9.99996 9.375C11.7258 9.375 13.125 7.97589 13.125 6.25C13.125 4.52411 11.7258 3.125 9.99996 3.125Z"
+                                        fill="white" />
+                                    <path
+                                        d="M6.66663 11.0417C4.94074 11.0417 3.54163 12.4408 3.54163 14.1667V15.1569C3.54163 15.7846 3.99653 16.3198 4.61602 16.4209C8.18171 17.0031 11.8182 17.0031 15.3839 16.4209C16.0034 16.3198 16.4583 15.7846 16.4583 15.1569V14.1667C16.4583 12.4408 15.0592 11.0417 13.3333 11.0417H13.0492C12.8955 11.0417 12.7427 11.066 12.5966 11.1137L11.8753 11.3492C10.6567 11.7471 9.34319 11.7471 8.12462 11.3492L7.40335 11.1137C7.2572 11.066 7.10443 11.0417 6.95068 11.0417H6.66663Z"
+                                        fill="white" />
+                                </svg>
+                                5 Seats
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff"
+                                        d="M10 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm4 7.667a1 1 0 0 1-1 1h-1.333a1 1 0 0 0-1 1v1.666a.667.667 0 1 1-1.334 0v-1.666a1 1 0 1 0-2 0v1.666a.667.667 0 0 1-1.333 0V6.667a.667.667 0 1 1 1.333 0v1.666a1 1 0 0 0 2 0V6.667a.667.667 0 0 1 1.334 0v1.666a1 1 0 1 0 2 0V6.667a.667.667 0 0 1 1.333 0v3Z" />
+                                </svg>
+                                Automatic
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff" fill-rule="evenodd"
+                                        d="M11.875 2.083a.208.208 0 0 0-.208-.208H5.833a2.292 2.292 0 0 0-2.291 2.292v11.666a2.292 2.292 0 0 0 2.291 2.292h8.334a2.292 2.292 0 0 0 2.291-2.292v-8.21a.208.208 0 0 0-.208-.209H12.5a.625.625 0 0 1-.625-.625V2.083ZM10 8.333a1.667 1.667 0 1 0 0 3.334 1.667 1.667 0 0 0 0-3.334Zm-3.333 7.084a2.5 2.5 0 0 1 2.5-2.5h1.666a2.5 2.5 0 0 1 2.5 2.5c0 .46-.373.833-.833.833h-5a.833.833 0 0 1-.833-.833Z"
+                                        clip-rule="evenodd" />
+                                    <path fill="#fff"
+                                        d="M13.125 2.353c0-.153.16-.25.28-.154.1.081.192.176.269.284l2.51 3.498c.058.08-.004.183-.102.183h-2.749a.208.208 0 0 1-.208-.208V2.353Z" />
+                                </svg>
+                                21+ Years
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff"
+                                        d="M15 11.55a5.319 5.319 0 0 1-5.313 5.325 5.319 5.319 0 0 1-5.312-5.325c0-2.941 5.313-8.425 5.313-8.425S15 8.609 15 11.55Z" />
+                                </svg>
+                                1-lit / 2.5 km
+                            </span>
+                        </div>
+                    </li>
+                    <li class="products__item">
+                        <h2>Toyota Corolla</h2>
+                        <p>Mid-size Car</p>
+                        <img class="products__item-img" src="images/png/Toyota Corolla.png" alt="Toyota Corolla image"
+                            width="387" height="220">
+                        <div class="products__item-bottom">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.99996 3.125C8.27407 3.125 6.87496 4.52411 6.87496 6.25C6.87496 7.97589 8.27407 9.375 9.99996 9.375C11.7258 9.375 13.125 7.97589 13.125 6.25C13.125 4.52411 11.7258 3.125 9.99996 3.125Z"
+                                        fill="white" />
+                                    <path
+                                        d="M6.66663 11.0417C4.94074 11.0417 3.54163 12.4408 3.54163 14.1667V15.1569C3.54163 15.7846 3.99653 16.3198 4.61602 16.4209C8.18171 17.0031 11.8182 17.0031 15.3839 16.4209C16.0034 16.3198 16.4583 15.7846 16.4583 15.1569V14.1667C16.4583 12.4408 15.0592 11.0417 13.3333 11.0417H13.0492C12.8955 11.0417 12.7427 11.066 12.5966 11.1137L11.8753 11.3492C10.6567 11.7471 9.34319 11.7471 8.12462 11.3492L7.40335 11.1137C7.2572 11.066 7.10443 11.0417 6.95068 11.0417H6.66663Z"
+                                        fill="white" />
+                                </svg>
+                                5 Seats
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff"
+                                        d="M10 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm4 7.667a1 1 0 0 1-1 1h-1.333a1 1 0 0 0-1 1v1.666a.667.667 0 1 1-1.334 0v-1.666a1 1 0 1 0-2 0v1.666a.667.667 0 0 1-1.333 0V6.667a.667.667 0 1 1 1.333 0v1.666a1 1 0 0 0 2 0V6.667a.667.667 0 0 1 1.334 0v1.666a1 1 0 1 0 2 0V6.667a.667.667 0 0 1 1.333 0v3Z" />
+                                </svg>
+                                Automatic
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff" fill-rule="evenodd"
+                                        d="M11.875 2.083a.208.208 0 0 0-.208-.208H5.833a2.292 2.292 0 0 0-2.291 2.292v11.666a2.292 2.292 0 0 0 2.291 2.292h8.334a2.292 2.292 0 0 0 2.291-2.292v-8.21a.208.208 0 0 0-.208-.209H12.5a.625.625 0 0 1-.625-.625V2.083ZM10 8.333a1.667 1.667 0 1 0 0 3.334 1.667 1.667 0 0 0 0-3.334Zm-3.333 7.084a2.5 2.5 0 0 1 2.5-2.5h1.666a2.5 2.5 0 0 1 2.5 2.5c0 .46-.373.833-.833.833h-5a.833.833 0 0 1-.833-.833Z"
+                                        clip-rule="evenodd" />
+                                    <path fill="#fff"
+                                        d="M13.125 2.353c0-.153.16-.25.28-.154.1.081.192.176.269.284l2.51 3.498c.058.08-.004.183-.102.183h-2.749a.208.208 0 0 1-.208-.208V2.353Z" />
+                                </svg>
+                                21+ Years
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff"
+                                        d="M15 11.55a5.319 5.319 0 0 1-5.313 5.325 5.319 5.319 0 0 1-5.312-5.325c0-2.941 5.313-8.425 5.313-8.425S15 8.609 15 11.55Z" />
+                                </svg>
+                                1-lit / 2.5 km
+                            </span>
+                        </div>
+                    </li>
+                    <li class="products__item">
+                        <h2>Nissan Rogue</h2>
+                        <p>Mid-size SUV</p>
+                        <img class="products__item-img" src="images/png/Nissan Rogue.png" alt="Nissan Rogue image"
+                            width="387" height="220">
+                        <div class="products__item-bottom">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.99996 3.125C8.27407 3.125 6.87496 4.52411 6.87496 6.25C6.87496 7.97589 8.27407 9.375 9.99996 9.375C11.7258 9.375 13.125 7.97589 13.125 6.25C13.125 4.52411 11.7258 3.125 9.99996 3.125Z"
+                                        fill="white" />
+                                    <path
+                                        d="M6.66663 11.0417C4.94074 11.0417 3.54163 12.4408 3.54163 14.1667V15.1569C3.54163 15.7846 3.99653 16.3198 4.61602 16.4209C8.18171 17.0031 11.8182 17.0031 15.3839 16.4209C16.0034 16.3198 16.4583 15.7846 16.4583 15.1569V14.1667C16.4583 12.4408 15.0592 11.0417 13.3333 11.0417H13.0492C12.8955 11.0417 12.7427 11.066 12.5966 11.1137L11.8753 11.3492C10.6567 11.7471 9.34319 11.7471 8.12462 11.3492L7.40335 11.1137C7.2572 11.066 7.10443 11.0417 6.95068 11.0417H6.66663Z"
+                                        fill="white" />
+                                </svg>
+                                5 Seats
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff"
+                                        d="M10 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm4 7.667a1 1 0 0 1-1 1h-1.333a1 1 0 0 0-1 1v1.666a.667.667 0 1 1-1.334 0v-1.666a1 1 0 1 0-2 0v1.666a.667.667 0 0 1-1.333 0V6.667a.667.667 0 1 1 1.333 0v1.666a1 1 0 0 0 2 0V6.667a.667.667 0 0 1 1.334 0v1.666a1 1 0 1 0 2 0V6.667a.667.667 0 0 1 1.333 0v3Z" />
+                                </svg>
+                                Automatic
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff" fill-rule="evenodd"
+                                        d="M11.875 2.083a.208.208 0 0 0-.208-.208H5.833a2.292 2.292 0 0 0-2.291 2.292v11.666a2.292 2.292 0 0 0 2.291 2.292h8.334a2.292 2.292 0 0 0 2.291-2.292v-8.21a.208.208 0 0 0-.208-.209H12.5a.625.625 0 0 1-.625-.625V2.083ZM10 8.333a1.667 1.667 0 1 0 0 3.334 1.667 1.667 0 0 0 0-3.334Zm-3.333 7.084a2.5 2.5 0 0 1 2.5-2.5h1.666a2.5 2.5 0 0 1 2.5 2.5c0 .46-.373.833-.833.833h-5a.833.833 0 0 1-.833-.833Z"
+                                        clip-rule="evenodd" />
+                                    <path fill="#fff"
+                                        d="M13.125 2.353c0-.153.16-.25.28-.154.1.081.192.176.269.284l2.51 3.498c.058.08-.004.183-.102.183h-2.749a.208.208 0 0 1-.208-.208V2.353Z" />
+                                </svg>
+                                21+ Years
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff"
+                                        d="M15 11.55a5.319 5.319 0 0 1-5.313 5.325 5.319 5.319 0 0 1-5.312-5.325c0-2.941 5.313-8.425 5.313-8.425S15 8.609 15 11.55Z" />
+                                </svg>
+                                1-lit / 2.5 km
+                            </span>
+                        </div>
+                    </li>
+                    <li class="products__item">
+                        <h2>Chevy Traverse</h2>
+                        <p>Full-size SUV </p>
+                        <img class="products__item-img" src="images/png/Chevy Traverse.png" alt="Chevy Traverse image"
+                            width="387" height="220">
+                        <div class="products__item-bottom">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.99996 3.125C8.27407 3.125 6.87496 4.52411 6.87496 6.25C6.87496 7.97589 8.27407 9.375 9.99996 9.375C11.7258 9.375 13.125 7.97589 13.125 6.25C13.125 4.52411 11.7258 3.125 9.99996 3.125Z"
+                                        fill="white" />
+                                    <path
+                                        d="M6.66663 11.0417C4.94074 11.0417 3.54163 12.4408 3.54163 14.1667V15.1569C3.54163 15.7846 3.99653 16.3198 4.61602 16.4209C8.18171 17.0031 11.8182 17.0031 15.3839 16.4209C16.0034 16.3198 16.4583 15.7846 16.4583 15.1569V14.1667C16.4583 12.4408 15.0592 11.0417 13.3333 11.0417H13.0492C12.8955 11.0417 12.7427 11.066 12.5966 11.1137L11.8753 11.3492C10.6567 11.7471 9.34319 11.7471 8.12462 11.3492L7.40335 11.1137C7.2572 11.066 7.10443 11.0417 6.95068 11.0417H6.66663Z"
+                                        fill="white" />
+                                </svg>
+                                5 Seats
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff"
+                                        d="M10 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm4 7.667a1 1 0 0 1-1 1h-1.333a1 1 0 0 0-1 1v1.666a.667.667 0 1 1-1.334 0v-1.666a1 1 0 1 0-2 0v1.666a.667.667 0 0 1-1.333 0V6.667a.667.667 0 1 1 1.333 0v1.666a1 1 0 0 0 2 0V6.667a.667.667 0 0 1 1.334 0v1.666a1 1 0 1 0 2 0V6.667a.667.667 0 0 1 1.333 0v3Z" />
+                                </svg>
+                                Automatic
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff" fill-rule="evenodd"
+                                        d="M11.875 2.083a.208.208 0 0 0-.208-.208H5.833a2.292 2.292 0 0 0-2.291 2.292v11.666a2.292 2.292 0 0 0 2.291 2.292h8.334a2.292 2.292 0 0 0 2.291-2.292v-8.21a.208.208 0 0 0-.208-.209H12.5a.625.625 0 0 1-.625-.625V2.083ZM10 8.333a1.667 1.667 0 1 0 0 3.334 1.667 1.667 0 0 0 0-3.334Zm-3.333 7.084a2.5 2.5 0 0 1 2.5-2.5h1.666a2.5 2.5 0 0 1 2.5 2.5c0 .46-.373.833-.833.833h-5a.833.833 0 0 1-.833-.833Z"
+                                        clip-rule="evenodd" />
+                                    <path fill="#fff"
+                                        d="M13.125 2.353c0-.153.16-.25.28-.154.1.081.192.176.269.284l2.51 3.498c.058.08-.004.183-.102.183h-2.749a.208.208 0 0 1-.208-.208V2.353Z" />
+                                </svg>
+                                21+ Years
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff"
+                                        d="M15 11.55a5.319 5.319 0 0 1-5.313 5.325 5.319 5.319 0 0 1-5.312-5.325c0-2.941 5.313-8.425 5.313-8.425S15 8.609 15 11.55Z" />
+                                </svg>
+                                1-lit / 2.5 km
+                            </span>
+                        </div>
+                    </li>
+                    <li class="products__item">
+                        <h2>Nissan Altima</h2>
+                        <p>Full-size Car</p>
+                        <img class="products__item-img" src="images/png/Nissan Altima.png" alt="Nissan Altima image"
+                            width="387" height="220">
+                        <div class="products__item-bottom">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.99996 3.125C8.27407 3.125 6.87496 4.52411 6.87496 6.25C6.87496 7.97589 8.27407 9.375 9.99996 9.375C11.7258 9.375 13.125 7.97589 13.125 6.25C13.125 4.52411 11.7258 3.125 9.99996 3.125Z"
+                                        fill="white" />
+                                    <path
+                                        d="M6.66663 11.0417C4.94074 11.0417 3.54163 12.4408 3.54163 14.1667V15.1569C3.54163 15.7846 3.99653 16.3198 4.61602 16.4209C8.18171 17.0031 11.8182 17.0031 15.3839 16.4209C16.0034 16.3198 16.4583 15.7846 16.4583 15.1569V14.1667C16.4583 12.4408 15.0592 11.0417 13.3333 11.0417H13.0492C12.8955 11.0417 12.7427 11.066 12.5966 11.1137L11.8753 11.3492C10.6567 11.7471 9.34319 11.7471 8.12462 11.3492L7.40335 11.1137C7.2572 11.066 7.10443 11.0417 6.95068 11.0417H6.66663Z"
+                                        fill="white" />
+                                </svg>
+                                5 Seats
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff"
+                                        d="M10 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16Zm4 7.667a1 1 0 0 1-1 1h-1.333a1 1 0 0 0-1 1v1.666a.667.667 0 1 1-1.334 0v-1.666a1 1 0 1 0-2 0v1.666a.667.667 0 0 1-1.333 0V6.667a.667.667 0 1 1 1.333 0v1.666a1 1 0 0 0 2 0V6.667a.667.667 0 0 1 1.334 0v1.666a1 1 0 1 0 2 0V6.667a.667.667 0 0 1 1.333 0v3Z" />
+                                </svg>
+                                Automatic
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff" fill-rule="evenodd"
+                                        d="M11.875 2.083a.208.208 0 0 0-.208-.208H5.833a2.292 2.292 0 0 0-2.291 2.292v11.666a2.292 2.292 0 0 0 2.291 2.292h8.334a2.292 2.292 0 0 0 2.291-2.292v-8.21a.208.208 0 0 0-.208-.209H12.5a.625.625 0 0 1-.625-.625V2.083ZM10 8.333a1.667 1.667 0 1 0 0 3.334 1.667 1.667 0 0 0 0-3.334Zm-3.333 7.084a2.5 2.5 0 0 1 2.5-2.5h1.666a2.5 2.5 0 0 1 2.5 2.5c0 .46-.373.833-.833.833h-5a.833.833 0 0 1-.833-.833Z"
+                                        clip-rule="evenodd" />
+                                    <path fill="#fff"
+                                        d="M13.125 2.353c0-.153.16-.25.28-.154.1.081.192.176.269.284l2.51 3.498c.058.08-.004.183-.102.183h-2.749a.208.208 0 0 1-.208-.208V2.353Z" />
+                                </svg>
+                                21+ Years
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none">
+                                    <path fill="#fff"
+                                        d="M15 11.55a5.319 5.319 0 0 1-5.313 5.325 5.319 5.319 0 0 1-5.312-5.325c0-2.941 5.313-8.425 5.313-8.425S15 8.609 15 11.55Z" />
+                                </svg>
+                                1-lit / 2.5 km
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- products section end -->
 
     </main>
     <!-- main end -->
@@ -119,7 +412,10 @@
     <div class="overlay hidden">
         <div class="modal">
             <button class="modal__cross-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"><path fill="#000" d="M14.727 8.245a.687.687 0 1 0-.972-.972L11 10.028 8.245 7.273a.687.687 0 1 0-.972.972L10.028 11l-2.755 2.755a.688.688 0 0 0 .972.972L11 11.972l2.755 2.755a.688.688 0 1 0 .972-.972L11.972 11l2.755-2.755Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none">
+                    <path fill="#000"
+                        d="M14.727 8.245a.687.687 0 1 0-.972-.972L11 10.028 8.245 7.273a.687.687 0 1 0-.972.972L10.028 11l-2.755 2.755a.688.688 0 0 0 .972.972L11 11.972l2.755 2.755a.688.688 0 1 0 .972-.972L11.972 11l2.755-2.755Z" />
+                </svg>
             </button>
             <h2 class="modal__title section-title">Login</h2>
             <p class="modal__subtitle">Use the email and password that you login</p>
@@ -127,10 +423,15 @@
                 <label class="modal__label">
                     <input class="modal__input" type="email" placeholder="Email" required>
                 </label>
-                <label class="modal__label"> 
+                <label class="modal__label">
                     <input class="modal__input modal__input--password" type="password" placeholder="Password" required>
                     <button class="modal__eye-btn" type="button">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"><path fill="#000" d="M11 8.938a2.063 2.063 0 1 0 0 4.125 2.063 2.063 0 0 0 0-4.125Z"/><path fill="#000" fill-rule="evenodd" d="M11 5.042c-2.4 0-4.558.964-6.113 2.157-.778.598-1.417 1.261-1.865 1.907-.44.633-.73 1.3-.73 1.894 0 .595.29 1.26.73 1.894.448.646 1.087 1.31 1.865 1.907C6.442 15.995 8.6 16.958 11 16.958c2.4 0 4.558-.963 6.113-2.157.778-.597 1.417-1.261 1.865-1.907.44-.633.73-1.3.73-1.894 0-.594-.29-1.26-.73-1.894-.448-.646-1.087-1.31-1.865-1.907C15.558 6.006 13.4 5.042 11 5.042ZM7.563 11a3.438 3.438 0 1 1 6.875 0 3.438 3.438 0 0 1-6.875 0Z" clip-rule="evenodd"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none">
+                            <path fill="#000" d="M11 8.938a2.063 2.063 0 1 0 0 4.125 2.063 2.063 0 0 0 0-4.125Z" />
+                            <path fill="#000" fill-rule="evenodd"
+                                d="M11 5.042c-2.4 0-4.558.964-6.113 2.157-.778.598-1.417 1.261-1.865 1.907-.44.633-.73 1.3-.73 1.894 0 .595.29 1.26.73 1.894.448.646 1.087 1.31 1.865 1.907C6.442 15.995 8.6 16.958 11 16.958c2.4 0 4.558-.963 6.113-2.157.778-.597 1.417-1.261 1.865-1.907.44-.633.73-1.3.73-1.894 0-.594-.29-1.26-.73-1.894-.448-.646-1.087-1.31-1.865-1.907C15.558 6.006 13.4 5.042 11 5.042ZM7.563 11a3.438 3.438 0 1 1 6.875 0 3.438 3.438 0 0 1-6.875 0Z"
+                                clip-rule="evenodd" />
+                        </svg>
                     </button>
                 </label>
                 <a class="modal__forgot-password" href="#">Forgot password</a>
@@ -146,4 +447,5 @@
 
     <script src="./app.js"></script>
 </body>
+
 </html>
